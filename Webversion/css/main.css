@@ -1,0 +1,339 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #222;
+  margin: 0;
+  width: 100%;
+  float: left;
+}
+
+a {
+  color: #222;
+  cursor: pointer;
+}
+  a:hover {
+    color: #ff656a;
+    text-decoration: none;
+  }
+    a:hover .glyphicon {
+      color: #ff656a;
+    }
+
+nav.navbar {
+	background-color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+  margin: 0;
+}
+
+nav.navbar ul {
+  width: 100%;
+  font-size: 12px;
+}
+
+nav.navbar a {
+	color: rgba(0,0,0,0.75);
+	font-family: 'Whitney SSm A', 'Whitney SSm B', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+nav.navbar .active a,
+nav.navbar a:hover {
+  color: #ff656a;
+  background: none;
+}
+
+nav.navbar .container .row {
+  margin: 0;
+}
+
+nav.navbar .navbar-toggle .icon-bar {
+  background: #3e87b2;
+}
+  nav.navbar .navbar-toggle:hover .icon-bar {
+    background: #ff656a;
+  }
+
+nav.navbar li.language-switch {
+  float: right;
+}
+
+div.jumbotron {
+	background: #222;
+	color: #fff;
+	padding: 240px 0;
+	margin: 81px 0 40px;
+}
+
+div.jumbotron.introduction {
+  background-color: #ac4a8f;
+}
+
+div.jumbotron .row {
+  margin: 0;
+}
+
+div.jumbotron a {
+  color: #ff656a;
+}
+
+div.jumbotron a:hover {
+  text-decoration: underline;
+}
+
+div.jumbotron p {
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  width: 100%;
+  float: left;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+p em, ul li em {
+  font-weight: 700;
+  font-style: normal;
+}
+
+div.jumbotron.first {
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Gotham A", "Gotham B";
+  font-style: normal;
+  font-weight: 700;
+  color: #222;
+  margin: 5px 0;
+}
+
+h1 {
+	letter-spacing: 0.05em;
+  font-size: 42px;
+	text-transform: uppercase;
+}
+
+h2 {
+	letter-spacing: 0.05em;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h3 {
+	margin: 2em 0 0.75em 0;
+	letter-spacing: 0.05em;
+}
+
+h4 {
+  margin-top: 2em;
+  font-size: 34px;
+  margin-bottom: 1em;
+  letter-spacing: 0.02em;
+}
+
+h5 {
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.02em;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-weight: 400;
+  margin-top: 1.5em;
+  font-size: 16px;
+  margin-bottom: 0.5em;
+  letter-spacing: 0.05em;
+}
+
+.navbar {
+	padding: 15px 0;
+}
+
+.navbar.scroll {
+	    -webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:    1px 1px 1px 0px rgba(50, 50, 50, 0.1);
+    box-shadow:         1px 1px 1px 0px rgba(50, 50, 50, 0.1);
+}
+
+p {
+	font-family: "Whitney SSm A", "Whitney SSm B";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #222;
+  -webkit-font-smoothing: antialiased;
+}
+
+p strong {
+  font-family: "Gotham A", "Gotham B";
+  font-style: normal;
+  font-weight: 700;
+  color: #ac4a8f;
+  text-transform: uppercase;
+}
+
+strong.conclusion {
+  font-family: "Whitney SSm A", "Whitney SSm B";
+  font-style: normal;
+  font-weight: 300;
+  color: #222 !important;
+  text-transform: none !important;
+}
+
+p small {
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content ul li {
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 1em; 
+  text-indent: -2em;
+}
+
+.content ul li:before {
+    content: "\002022";
+    padding-right: 1.5em;
+}
+
+::-moz-selection {
+    color: #fff;
+}
+
+::selection {
+    color: #fff;
+}
+
+.introduction ::-moz-selection { background: #ac4a8f; }
+.introduction ::selection { background: #ac4a8f; }
+
+.introduction a {
+  border-bottom: 1px solid rgba(172, 74, 143, 0.6);
+}
+
+.introduction h3, .introduction h4, .introduction h5, .introduction h6, .introduction strong, .introduction em, .content.introduction ul li:before, .introduction a:hover, .introduction a:focus {
+  color: #ac4a8f;
+}
+
+.introduction strong.conclusion {
+  background-color: rgba(172, 74, 143, 0.2);
+}
+
+div.jumbotron.introduction { background: #ac4a8f; }
+
+.derivation ::-moz-selection { background: #f7931d; }
+.derivation ::selection { background: #f7931d; }
+
+.derivation a {
+  border-bottom: 1px solid rgba(247, 147, 29, 0.6);
+}
+
+.derivation h3, .derivation h4, .derivation h5, .derivation h6, .derivation strong, .derivation em, .content.derivation ul li:before, .derivation a:hover, .derivation a:focus {
+  color: #f7931d;
+}
+
+.derivation strong.conclusion {
+  background-color: rgba(247, 147, 29, 0.2);
+}
+
+div.jumbotron.derivation { background: #f7931d; }
+
+.foundation ::-moz-selection { background: #008ccf; }
+.foundation ::selection { background: #008ccf; }
+
+.foundation a {
+  border-bottom: 1px solid rgba(0, 140, 207, 0.6);
+}
+
+.foundation h3, .foundation h4, .foundation h5, .foundation h6, .foundation strong, .foundation em, .content.foundation ul li:before, .foundation a:hover, .foundation a:focus {
+  color: #008ccf;
+}
+
+.foundation strong.conclusion {
+  background-color: rgba(0, 140, 207, 0.2);
+}
+
+div.jumbotron.foundation { background: #008ccf; }
+
+.state ::-moz-selection { background: #ef5064; }
+.state ::selection { background: #ef5064; }
+
+.state a {
+  border-bottom: 1px solid rgba(239, 80, 100, 0.6);
+}
+
+.state h3, .state h4, .state h5, .state h6, .state strong, .state em, .content.state ul li:before, .state a:hover, .state a:focus {
+  color: #ef5064;
+}
+
+.state strong.conclusion {
+  background-color: rgba(239, 80, 100, 0.2);
+}
+
+div.jumbotron.state { background: #ef5064; }
+
+.evaluation ::-moz-selection { background: #9ab72c; }
+.evaluation ::selection { background: #9ab72c; }
+
+.evaluation a {
+  border-bottom: 1px solid rgba(154, 184, 44, 0.6);
+}
+
+.evaluation h3, .evaluation h4, .evaluation h5, .evaluation h6, .evaluation strong, .evaluation em, .content.evaluation ul li:before, .evaluation a:hover, .evaluation a:focus {
+  color: #9ab72c;
+}
+
+.evaluation strong.conclusion {
+  background-color: rgba(154, 184, 44, 0.2);
+}
+
+div.jumbotron.evaluation { background: #9ab72c; }
+
+.appendix ::-moz-selection { background: #808080; }
+.appendix ::selection { background: #808080; }
+
+.appendix a {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+}
+
+.appendix h3, .appendix h4, .appendix h5, .appendix h6, .appendix strong, .appendix em, .content.appendix ul li:before, .appendix a:hover, .appendix a:focus {
+  color: #808080;
+}
+
+.appendix strong.conclusion {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+div.jumbotron.appendix { background: #808080; }
+
+.appendix ul li {
+  font-size: 14px;
+}
+
+
+nav.navbar .active a, nav.navbar a:hover, nav.navbar a:focus { color: #ff656a; }

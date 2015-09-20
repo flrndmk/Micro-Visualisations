@@ -46,7 +46,8 @@ nav.navbar a {
 }
 
 nav.navbar .active a,
-nav.navbar a:hover {
+nav.navbar a:hover,
+nav.navbar a:focus {
   color: #ff656a;
   background: none;
 }
@@ -147,6 +148,35 @@ div.jumbotron span {
   margin: 0 0 1em;
 }
 
+div.table h2 {
+  letter-spacing: 0em;
+  margin: 2em 0 0 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+div.table h4 {
+  font-size: 15px;
+  margin: 1em 0 0 1em;
+  letter-spacing: 0em;
+  font-weight: 700;
+}
+
+div.table h5 {
+  font-size: 15px;
+  margin: 0.75em 0 0 2em;
+  letter-spacing: 0em;
+  font-weight: 400;
+}
+
+div.table h6 {
+  font-size: 14px;
+  margin: 0.5em 0 0 3em;
+  letter-spacing: 0em;
+  font-weight: 400;
+  text-transform: none;
+}
+
 h4 {
   margin-top: 2em;
   font-size: 34px;
@@ -225,6 +255,27 @@ p strong, figcaption strong {
   text-transform: uppercase;
 }
 
+blockquote {
+  border: 0;
+  text-align: center;
+}
+
+blockquote cite {
+  float: right;
+}
+
+blockquote p {
+  font-family: "Gotham A", "Gotham B";
+  font-style: italic;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+blockquote.small p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
 figcaption strong {
   display: block;
 }
@@ -237,25 +288,42 @@ strong.conclusion {
   text-transform: none !important;
 }
 
-p small {
+p small, figcaption small {
   font-style: italic;
   font-size: 0.8em;
 }
 
 .content ul {
   list-style: none;
+  padding-left: 0;
 }
 
 .content ul li {
   font-size: 16px;
   line-height: 30px;
-  padding-left: 1em; 
+  padding-left: 0; 
   text-indent: -2em;
 }
 
 .content ul li:before {
     content: "\002022";
     padding-right: 1.5em;
+}
+
+div.table ul {
+  list-style: none;
+}
+
+div.table ul li {
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 0; 
+  text-indent: -0;
+}
+
+div.table ul li:before {
+    content: "";
+    padding-right: 0;
 }
 
 ::-moz-selection {
@@ -265,6 +333,9 @@ p small {
 ::selection {
     color: #fff;
 }
+
+div.jumbotron.cover ::-moz-selection { background: #fff; color: #222; }
+div.jumbotron.cover ::selection { background: #fff; color: #222; }
 
 .cover ::-moz-selection { background: #222; }
 .cover ::selection { background: #222; }
@@ -283,6 +354,11 @@ p small {
 
 div.jumbotron.cover { background: #222; }
 
+div.table section.cover { color: #222 !important; }
+
+div.jumbotron.introduction ::-moz-selection { background: #fff; color: #ac4a8f; }
+div.jumbotron.introduction ::selection { background: #fff; color: #ac4a8f; }
+
 .introduction ::-moz-selection { background: #ac4a8f; }
 .introduction ::selection { background: #ac4a8f; }
 
@@ -299,6 +375,13 @@ div.jumbotron.cover { background: #222; }
 }
 
 div.jumbotron.introduction { background: #ac4a8f; }
+
+nav.navbar .active a.introduction, nav.navbar a.introduction:hover, nav.navbar a.introduction:focus { color: #ac4a8f; }
+
+div.table section.introduction { color: #ac4a8f !important; }
+
+div.jumbotron.derivation ::-moz-selection { background: #fff; color: #f7931d; }
+div.jumbotron.derivation ::selection { background: #fff; color: #f7931d; }
 
 .derivation ::-moz-selection { background: #f7931d; }
 .derivation ::selection { background: #f7931d; }
@@ -317,6 +400,13 @@ div.jumbotron.introduction { background: #ac4a8f; }
 
 div.jumbotron.derivation { background: #f7931d; }
 
+nav.navbar .active a.derivation, nav.navbar a.derivation:hover, nav.navbar a.derivation:focus { color: #f7931d; }
+
+div.table section.derivation { color: #f7931d !important; }
+
+div.jumbotron.foundation ::-moz-selection { background: #fff; color: #008ccf; }
+div.jumbotron.foundation ::selection { background: #fff; color: #008ccf; }
+
 .foundation ::-moz-selection { background: #008ccf; }
 .foundation ::selection { background: #008ccf; }
 
@@ -333,6 +423,13 @@ div.jumbotron.derivation { background: #f7931d; }
 }
 
 div.jumbotron.foundation { background: #008ccf; }
+
+nav.navbar .active a.foundation, nav.navbar a.foundation:hover, nav.navbar a.foundation:focus { color: #008ccf; }
+
+div.table section.foundation { color: #008ccf !important; }
+
+div.jumbotron.state ::-moz-selection { background: #fff; color: #ef5064; }
+div.jumbotron.state ::selection { background: #fff; color: #ef5064; }
 
 .state ::-moz-selection { background: #ef5064; }
 .state ::selection { background: #ef5064; }
@@ -351,6 +448,13 @@ div.jumbotron.foundation { background: #008ccf; }
 
 div.jumbotron.state { background: #ef5064; }
 
+nav.navbar .active a.state, nav.navbar a.state:hover, nav.navbar a.state:focus { color: #ef5064; }
+
+div.table section.state { color: #ef5064 !important; }
+
+div.jumbotron.evaluation ::-moz-selection { background: #fff; color: #9ab72c; }
+div.jumbotron.evaluation ::selection { background: #fff; color: #9ab72c; }
+
 .evaluation ::-moz-selection { background: #9ab72c; }
 .evaluation ::selection { background: #9ab72c; }
 
@@ -368,6 +472,13 @@ div.jumbotron.state { background: #ef5064; }
 
 div.jumbotron.evaluation { background: #9ab72c; }
 
+nav.navbar .active a.evaluation, nav.navbar a.evaluation:hover, nav.navbar a.evaluation:focus { color: #9ab72c; }
+
+div.table section.evaluation { color: #9ab72c !important; }
+
+div.jumbotron.appendix ::-moz-selection { background: #fff; color: #808080; }
+div.jumbotron.appendix ::selection { background: #fff; color: #808080; }
+
 .appendix ::-moz-selection { background: #808080; }
 .appendix ::selection { background: #808080; }
 
@@ -384,6 +495,10 @@ div.jumbotron.evaluation { background: #9ab72c; }
 }
 
 div.jumbotron.appendix { background: #808080; }
+
+nav.navbar .active a.appendix, nav.navbar a.appendix:hover, nav.navbar a.appendix:focus { color: #808080; }
+
+div.table section.appendix { color: #808080 !important; }
 
 .appendix ul li {
   font-size: 14px;

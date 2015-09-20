@@ -195,12 +195,38 @@ p {
   -webkit-font-smoothing: antialiased;
 }
 
-p strong {
+.row {
+  margin-bottom: 30px;
+}
+
+figure img {
+  padding-bottom: 1em;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content img.center {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p strong, figcaption strong {
   font-family: "Gotham A", "Gotham B";
   font-style: normal;
   font-weight: 700;
   color: #ac4a8f;
   text-transform: uppercase;
+}
+
+figcaption strong {
+  display: block;
 }
 
 strong.conclusion {

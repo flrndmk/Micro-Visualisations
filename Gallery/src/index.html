@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Micro Visualisation</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <script src="vendor/jquery-2.1.4.min.js"></script>
+      <script src="vendor/bootstrap.min.js"></script>
+      <script src="vendor/underscore-min.js"></script>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6920072/629028/css/fonts.css" />
+    </head>   
+    <body>
+      <div id="wrapper">
+        <div id="aside" class="hidden-xs hidden-sm">
+          <h1>Micro Visualisation</h1>
+          <p>This websites shows examples of a new type of data visuali&shy;sations called micro visualisations. These graphics can either be small in physical space or also be narrowed in terms of data dimension or points.</p>
+          <div id="filter" class="hidden-xs hidden-sm"></div>
+          <p>If you want to suggest any visualisation that might fit in the definition you can do this with this <a href="http://goo.gl/forms/22sChGNQs8">Google form</a> or by forking this <a href="https://github.com/z3to/Micro-Visualisation/blob/master/src/data/items.json">file on Github</a>.
+        </div>
+        <div class="container">
+          <a href="#menu-toggle" class="btn btn-default visible-xs visible-sm" id="menu-toggle">Toggle Menu</a>
+          <div class="row">
+            <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-8 col-md-offset-4 col-lg-8 col-lg-offset-4" id="listings"></div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="detailModal" tabindex="-1" role="dialog" aria-labelledby="detailModal">
+        <div class="modal-dialog" role="document">
+
+        </div>
+      </div>
+
+      <script src="js/main.js"></script>
+    </body>
+</html>

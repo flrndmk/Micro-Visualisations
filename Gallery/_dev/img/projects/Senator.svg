@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1000" height="1000"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_2_)">
+		<g>
+			<rect x="0" y="941.5" fill="#FFF8B5" width="1445.5" height="58.6"/>
+			<rect x="0" y="884.4" fill="#FFF8B5" width="1431.6" height="58.6"/>
+			<rect x="0" y="834.2" fill="#FFF8B5" width="1452.5" height="58.6"/>
+			<rect x="789.1" y="779.8" fill="#FFF8B5" width="634.1" height="58.6"/>
+			<rect x="0" y="754.7" fill="#FFD5D0" width="777.9" height="58.6"/>
+			<rect y="701.7" fill="#FFD5D0" width="1440" height="58.6"/>
+			<rect x="65.5" y="654.3" fill="#FFD5D0" width="1381.4" height="58.6"/>
+			<rect x="0" y="498.2" fill="#FFF8B5" width="520" height="58.6"/>
+			<rect y="439.6" fill="#FFF8B5" width="1440" height="58.6"/>
+			<rect x="64.1" y="393.6" fill="#FFF8B5" width="1354.9" height="58.6"/>
+			<rect x="0" y="315.5" fill="#FFD5D0" width="584.2" height="58.6"/>
+			<rect x="0" y="269.5" fill="#FFD5D0" width="1456.7" height="58.6"/>
+			<rect x="0" y="211" fill="#FFD5D0" width="1348" height="58.6"/>
+			<rect x="0" y="153.8" fill="#FFD5D0" width="1394" height="59.9"/>
+			<rect y="98" fill="#FFD5D0" width="1424.6" height="58.6"/>
+			<rect y="39.5" fill="#FFD5D0" width="1424.6" height="58.6"/>
+			<rect y="-19.1" fill="#FFD5D0" width="1440" height="58.6"/>
+		</g>
+	</g>
+	<g clip-path="url(#SVGID_2_)">
+		<g>
+			<g>
+				<g>
+					<defs>
+						<rect id="SVGID_3_" x="1.4" y="-946.4" width="1452.8" height="1963.1"/>
+					</defs>
+					<clipPath id="SVGID_4_">
+						<use xlink:href="#SVGID_3_"  overflow="visible"/>
+					</clipPath>
+					<g transform="matrix(1 0 0 1 0 6.103516e-05)" opacity="0.898" clip-path="url(#SVGID_4_)">
+						
+							<image overflow="visible" width="1042" height="1408" xlink:href="16B1047E73C618D6.png"  transform="matrix(1.3942 0 0 1.3942 1.419 -946.4224)">
+						</image>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

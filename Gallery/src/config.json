@@ -1,0 +1,85 @@
+config = {
+    "imgPath" : "img/",
+    "imgPathItems" : "img/projects/",
+    "filter" : {
+        "taxCat" : {
+            "taxCatIntMod" : {
+                "name" : "Integrated Modifcation",
+                "description" : "Integrated Modifcation",
+                "icon" : "",
+                "state" : false
+            },
+            "taxCatIntAdd" : {
+                "name" : "Integrated Addition",
+                "description" : "Integrated Addition",
+                "icon" : "",
+                "state" : false
+            },
+            "taxCatAdjMod" : {
+                "name" : "Adjacent Modification",
+                "description" : "Adjacent Modification",
+                "icon" : "",
+                "state" : false
+            },
+            "taxCatAdjAdd" : {
+                "name" : "Adjacent Addition",
+                "description" : "Adjacent Addition",
+                "icon" : "",
+                "state" : false
+            },
+            "description" : "Lorem ipsum dolor"
+        },
+        "dataSource" : {
+            "daInn" : {
+                "name" : "Innate",
+                "description" : "Innate data source",
+                "icon" : "DataSource_daInn.svg",
+                "state" : false
+            },
+            "daInt" : {
+                "name" : "Intrinsic",
+                "description" : "Intrinsic data source",
+                "icon" : "DataSource_daInt.svg",
+                "state" : false
+            },
+            "daExt" : {
+                "name" : "Extrinsic",
+                "description" : "Extrinsic data source",
+                "icon" : "DataSource_daExt.svg",
+                "state" : false
+            },
+            "description" : "Lorem ipsum dolor"
+        },
+        "mediumType" : {
+            "print" : {
+                "name" : "Print",
+                "description" : "Used in a print product",
+                "icon" : "Medium_print.svg",
+                "state" : false
+            },
+            "web" : {
+                "name" : "Website",
+                "description" : "Used on a website",
+                "icon" : "Medium_web.svg",
+                "state" : false
+            },
+            "app" : {
+                "name" : "App",
+                "description" : "Used in an application",
+                "icon" : "Medium_app.svg",
+                "state" : false
+            },
+            "description" : "Lorem ipsum dolor"
+        },
+        "search" : {
+            "name" : "Search for visualisation",
+            "description" : "",
+            "state" : ''
+        },
+        "isInteractive" : {
+            "name" : "Interacitve visualisations",
+            "description" : "Filter for interactivity",
+            "state" : false
+        }       
+    }
+}

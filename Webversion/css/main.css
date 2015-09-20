@@ -119,21 +119,32 @@ h1, h2, h3, h4, h5, h6 {
   margin: 5px 0;
 }
 
-h1 {
+div.jumbotron h1, div.jumbotron h2, div.jumbotron h3 {
+  color: #fff;
+}
+
+div.jumbotron h1 {
 	letter-spacing: 0.05em;
-  font-size: 42px;
+  font-size: 63px;
 	text-transform: uppercase;
 }
 
-h2 {
+div.jumbotron h2 {
 	letter-spacing: 0.05em;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 58px;
+  font-weight: 700;
 }
 
-h3 {
-	margin: 2em 0 0.75em 0;
+div.jumbotron h3 {
+  font-size: 30px;
+	margin: 0 0 3em 0;
 	letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+div.jumbotron span {
+  display: block;
+  margin: 0 0 1em;
 }
 
 h4 {
@@ -228,6 +239,23 @@ p small {
 ::selection {
     color: #fff;
 }
+
+.cover ::-moz-selection { background: #222; }
+.cover ::selection { background: #222; }
+
+.cover a {
+  border-bottom: 1px solid rgba(34, 34, 34, 0.6);
+}
+
+.cover h3, .cover h4, .cover h5, .cover h6, .cover strong, .cover em, .content.cover ul li:before, .cover a:hover, .cover a:focus {
+  color: #222;
+}
+
+.cover strong.conclusion {
+  background-color: rgba(172, 74, 143, 0.2);
+}
+
+div.jumbotron.cover { background: #222; }
 
 .introduction ::-moz-selection { background: #ac4a8f; }
 .introduction ::selection { background: #ac4a8f; }

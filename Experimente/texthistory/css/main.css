@@ -1,0 +1,52 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+p, div {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: "freight-text-pro";
+}
+
+div#textarea {
+	background-color: rgba(0,0,0,0.05);
+	height: 500px;
+	display: block;
+	outline: none;
+	padding: 1em;
+	font-family: "freight-text-pro";
+}
+
+[data-item="1"] {
+    color: #39b54a;
+}
+[data-item="2"] {
+    color: #33a142;
+}
+[data-item="3"] {
+    color: #2c8d3a;
+}
+[data-item="4"] {
+    color: #267931;
+}
+[data-item="5"] {
+    color: #206529;
+}
+[data-item="6"] {
+    color: #195021;
+}
+[data-item="7"] {
+    color: #133c19;
+}
+[data-item="8"] {
+    color: #0d2810;
+}
+[data-item="9"] {
+    color: #061408;
+}
+[data-item="10"] {
+    color: #000000;
+}

@@ -1,0 +1,49 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: "freight-text-pro";
+	color: #333;
+}
+
+span {
+	position: relative;
+	border: 1px solid #e6e6e6;
+	margin: 0 -1px;
+	padding: 0 2px;
+}
+
+span.percent {
+	border: 0;
+	position: absolute;
+	background-color: #e6e6e6;
+	height: 26px;
+	color: #000;
+	overflow: hidden;
+	width: 20px;
+	left: 1px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+span:hover {
+	border: 1px solid #FFCC00;
+}
+
+span:hover span.percent {
+	background-color: #FFCC00;
+}
+
+span.percent:hover {
+	border: 0 !important;
+}

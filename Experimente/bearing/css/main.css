@@ -1,0 +1,49 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+span {
+	position: relative;
+	padding-right: 18px;
+}
+
+span img {
+	width: 14px;
+	top: 2px;
+    position:absolute;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.6;
+	font-family: "chaparral-pro", serif;
+	-moz-font-feature-settings: "liga";
+	-ms-font-feature-settings: "liga";
+	-webkit-font-feature-settings: "liga";
+	font-feature-settings: "liga";
+	padding: 0;
+	color: rgba(0,0,0,.8);
+	margin-bottom: 18px;
+}
+
+span.red.bg.active {
+	background: #d53e4f;
+	color: #d53e4f;
+}
+
+span.blue.bg.active {
+	background: #19974e;
+	color: #19974e;
+}
+
+
+/*div.row:hover span.word {
+	border-bottom: 2px solid #4393c2;
+}*/
+
+div.row:hover span.word.active {
+	color: #c41a7c;
+	border-bottom: 2px solid #c41a7c;
+}

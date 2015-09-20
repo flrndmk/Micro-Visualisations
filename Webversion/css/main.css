@@ -354,6 +354,18 @@ div.jumbotron.cover ::selection { background: #fff; color: #222; }
 
 div.jumbotron.cover { background: #222; }
 
+div.jumbotron.cover a {
+  border-bottom: 1px solid #ff656a;
+  text-decoration: none;
+  color: #fff;
+}
+
+div.jumbotron.cover a:hover {
+  border-bottom: 1px solid #ff656a;
+  text-decoration: none;
+  color: #ff656a;
+}
+
 div.table section.cover { color: #222 !important; }
 
 div.jumbotron.introduction ::-moz-selection { background: #fff; color: #ac4a8f; }

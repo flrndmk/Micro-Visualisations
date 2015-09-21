@@ -203,6 +203,20 @@ module.exports = React.createClass({
             <img src={config.imgPath + config.filter.mediumType.app.icon} className="icon" />
             {config.filter.mediumType.app.name} <small>({this.state.filter.value.app})</small>
           </label>
+          <h3 className="hidden">Interactivity <i className="glyphicon glyphicon-info-sign" data-toggle="popover" data-content="This distinguishes whether the micro visualisation is interactive or not." aria-hidden="true"></i></h3>
+          <div className="btn-group wide hidden">
+            <label className={this.state.filter.state.isInteractive ? btnClass + ' active' : btnClass} style={bgInteractivity[0]} data-toggle="tooltip" data-placement="top" title={config.filter.isInteractive.description}>
+              <input
+                type="checkbox"
+                autoComplete="off"
+                checked={this.state.filter.state.isInteractive}
+                ref="isInteractiveInput"
+                onChange={this.handleChange}
+              />
+              {' '}
+              {config.filter.isInteractive.name} <small>({this.state.filter.value.isInteractive})</small>
+            </label>
+          </div>
         </div>
       </form>
     );

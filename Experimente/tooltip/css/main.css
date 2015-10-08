@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: "freight-text-pro";
+	color: #333;
+}
+
+path {
+	fill: none;
+	stroke: #FFCC00;
+	stroke-width: 3;
+}
+
+circle {
+	fill: #FFCC00;
+	stroke-width: 0;
+}
+
+span {
+	  color: rgba(0, 0, 0, .8);
+	  border-bottom: 2px solid #FFCC00;
+	  cursor: pointer;
+	  letter-spacing: 0.01em;
+	  font-weight: 400;
+	  font-size: 0.96em;
+	  padding: 0 0.1em 0;
+	  margin: 0 -0.05em 0;
+}

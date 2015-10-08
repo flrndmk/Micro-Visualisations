@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Interactive Physics</title>
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script type="text/javascript" src="//use.typekit.net/yzc8mqt.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    </head>
+    <body>
+
+        <svg id="canvas">
+
+        </svg>
+        <div id="text">
+            <code><span class="hover var varA">a</span> * (<span class="hover var varB">b</span> + x) ^ 2 + <span class="hover var varC">c</span> = y</code>
+            <code><span class="hover var varA" id="varA">a</span> * (<span class="hover var varB" id="varB">b</span> + x) ^ 2 + <span class="hover var varC" id="varC">c</span> = y</code>
+            Die Funktion besitzt insgesamt <span class="hover" data-hover="var">3 Variablen</span>. Die <span class="hover" data-hover="varA">Variable A <input type="range" id="parA" min="1" max="1000" /></span> beschreibt die Steigung. Die <span class="hover" data-hover="varB">Variable B <input type="range" id="parB" min="-1000" max="1000" /></span> die Verschiebung auf der Y-Achse. Die <span class="hover" data-hover="varC" data-par="C" data-var="varC" id="varCLink">Variable C</span> die Verschiebung auf der X-Achse.<span id="hover">Variable C<br /><input type="range" id="parC" min="-1000" max="1000" /></span>
+        </div>
+        
+        <script src="js/vendor/snap.svg-min.js"></script>
+        <script src="js/vendor/jquery-1.10.1.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
